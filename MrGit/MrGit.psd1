@@ -69,8 +69,8 @@ Description = 'PowerShell Functions for working with Git'
 # NestedModules = @()
 
 # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
-FunctionsToExport = 'Get-MrGitHubRepositoryInfo', 'Get-MrGitStatus', 
-               'Update-MrGitRepository'
+FunctionsToExport = 'Get-MrGitHubRepositoryInfo', 'Get-MrGitRepoInfo', 'Get-MrGitStatus',
+                    'Test-MrGitPath', 'Update-MrGitRepo', 'Update-MrGitRepository'
 
 # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
 CmdletsToExport = '@()'
